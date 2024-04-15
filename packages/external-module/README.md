@@ -1,4 +1,4 @@
-# 1.Install
+# 1.安装
 
 1. 本地项目工程内安装 `lerna`：
 
@@ -11,7 +11,7 @@ yarn add lerna -D
 ```json
 {
   "scripts": {
-    "monorepo": "lerna init"
+    "lerna": "lerna"
   }
 }
 ```
@@ -25,4 +25,11 @@ yarn add lerna -D
 }
 ```
 
-4. 执行 `yarn monorepo`，项目初始化成功，并会在根目录下生成 `lerna.json` 文件。
+4. 执行 `yarn lerna init`，项目初始化成功，并会在根目录下生成 `lerna.json` 文件。
+
+# 2.创建新包
+
+```shell
+yarn lerna create <packageName>
+```
+
