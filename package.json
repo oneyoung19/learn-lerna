@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "monorepo": "lerna init"
+    "lerna": "lerna"
   },
   "workspaces": ["packages/*"],
   "devDependencies": {
