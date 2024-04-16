@@ -36,6 +36,8 @@ yarn lerna create <package>
 
 # TODO
 
+[`workspace`](https://zhuanlan.zhihu.com/p/381794854)
+
 `changelog`
 
 `GH_TOKEN`
@@ -43,4 +45,12 @@ yarn lerna create <package>
 `commit`
 
 自定义 `commit` `tag` 名
+
+`lerna.json` 与 `nx.json` [Configuration](https://lerna.js.org/docs/api-reference/configuration)
+
+`CI`
+
+`test` 单元测试 用例测试
+
+`pnpm` 结合 `lerna` 使用的[好处](https://lerna.js.org/docs/recipes/using-pnpm-with-lerna)
 
