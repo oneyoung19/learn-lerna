@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
+    "registry": "http://localhost:4873"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/oneyoung19/learn-lerna/issues"
-  }
+  },
+  "gitHead": "db9ca21b84170441089249fa3f7c3a65ab572c18"
 }
