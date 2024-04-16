@@ -1,3 +1,5 @@
+[官网指令介绍](https://lerna.js.org/docs/api-reference/commands)
+
 1. `lerna init` 初始化项目
 
 2. `lerna create <package>` 创建新包
