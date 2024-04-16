@@ -6,7 +6,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "nx": "nx"
   },
   "workspaces": [
     "packages/*"
