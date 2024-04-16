@@ -30,6 +30,17 @@ yarn add lerna -D
 # 2.创建新包
 
 ```shell
-yarn lerna create <packageName>
+yarn lerna create <package>
 ```
+
+
+# TODO
+
+`changelog`
+
+`GH_TOKEN`
+
+`commit`
+
+自定义 `commit` `tag` 名
 
