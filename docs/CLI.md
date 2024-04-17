@@ -22,12 +22,16 @@
 }
 ```
 
-7. `lerna run <script>`
+7. `lerna run <script>` 一次性执行所有 `package` 中的相关命令。相关脚本不会输出到控制台，如果想要查看每个脚本的具体执行打印，可以添加 `--stream` 参数。
 
-8. `lerna run <script> --scope=<scope>`
+8. `lerna run <script> --scope=<package>` 执行指定 `package` 中的脚本。
 
-8. `lerna exec <cmd>`
+8. `lerna exec <cmd>` 一次性在所有 `package` 下执行 `cmd` 命令。譬如 `yarn lerna exec touch test.txt` 会在所有 `package` 下创建 `test.txt` 文件。
 
-9.  `lerna boostrap`
+9. `lerna exec <cmd> --scope=<package>` 在指定 `package` 下执行 `cmd` 命令。
 
-10. `lerna bootstrap --hoist`
+10. `lerna boostrap`
+
+11. `lerna bootstrap --hoist`
+
+12. `lerna clean`
