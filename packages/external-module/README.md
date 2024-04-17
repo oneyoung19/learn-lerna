@@ -36,7 +36,9 @@ yarn lerna create <package>
 
 # TODO
 
-[`workspace`](https://zhuanlan.zhihu.com/p/381794854)
+- [`workspace`](https://zhuanlan.zhihu.com/p/381794854)
+
+利用 `yarn workspace` 安装包时，会默认有 `hoist` 效果。如果想要针对某些包关闭此特性，可以参考使用[nohoist](https://classic.yarnpkg.com/blog/2018/02/15/nohoist/)。
 
 `changelog`
 
