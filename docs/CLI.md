@@ -30,8 +30,8 @@
 
 9. `lerna exec <cmd> --scope=<package>` 在指定 `package` 下执行 `cmd` 命令。
 
-10. `lerna boostrap`
+10. `lerna boostrap` 安装依赖和软链接。（**在 `lerna@7` 版本被移除，官方目前推荐使用 `package.json` 中的 `workspaces` 字段。**）
 
-11. `lerna bootstrap --hoist`
+11. `lerna bootstrap --hoist` 安装依赖和软链接，并 `hoist` 提升至顶级 `node_modules`。
 
-12. `lerna clean`
+12. `lerna clean` 移除 `packages` 下的所有 `node_modules` 目录。
