@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/oneyoung19/learn-lerna/issues"
+  },
+  "dependencies": {
+    "module-c": "^0.0.1"
   }
 }

@@ -28,6 +28,7 @@
   },
   "gitHead": "db9ca21b84170441089249fa3f7c3a65ab572c18",
   "dependencies": {
-    "vue": "^3.4.23"
+    "vue": "^3.4.23",
+    "module-c": "^0.0.1"
   }
 }
