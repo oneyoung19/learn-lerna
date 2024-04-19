@@ -13,7 +13,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@lerna/bootstrap": "^6.6.2",
     "lerna": "^8.1.2"
   }
 }
