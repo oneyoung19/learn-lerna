@@ -36,6 +36,8 @@
 
 12. `lerna clean` 移除 `packages` 下的所有 `node_modules` 目录。
 
+13. `lerna import` 相当于将一个外部 `package` 导入到本项目的 `workspaces` 中，并且保留该 `package` 的 `commit` 记录。
+
 
 执行 `yarn lerna -h` 查看所有命令：
 
