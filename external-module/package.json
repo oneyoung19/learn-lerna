@@ -1,0 +1,23 @@
+{
+  "name": "external-module",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "yangxiaoping <2878847069@qq.com>",
+  "homepage": "https://github.com/oneyoung19/learn-lerna#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneyoung19/learn-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/module-b.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/oneyoung19/learn-lerna/issues"
+  },
+  "gitHead": "db9ca21b84170441089249fa3f7c3a65ab572c18"
+}
