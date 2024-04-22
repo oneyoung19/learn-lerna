@@ -41,24 +41,24 @@
 
 执行 `yarn lerna -h` 查看所有命令：
 
-lerna add-caching          Interactive prompt to generate task runner configuration
-lerna changed              List local packages that have changed since the last tagged release                             [aliases: updated]
-lerna clean                Remove the node_modules directory from all packages
-lerna create <name> [loc]  Create a new lerna-managed package
-lerna diff [pkgName]       Diff all packages or a single package since the last release
-lerna exec [cmd] [args..]  Execute an arbitrary command in each package
-lerna import <dir>         Import a package into the monorepo with commit history
-lerna info                 Prints debugging information about the local environment
-lerna init                 Create a new Lerna repo or upgrade an existing repo to the current version of Lerna
-lerna list                 List local packages                                          [aliases: ls, la, ll]
-lerna publish [bump]       Publish packages in the current project
-lerna repair               Runs automated migrations to repair the state of a lerna repo
-lerna run <script>         Run an npm script in each package that contains that script
-lerna watch                Runs a command whenever packages or their dependents change.
-lerna version [bump]       Bump version of packages changed since the last release
-lerna add <pkg> [globs..]  The "add" command was removed by default in v7, and is no longer maintained.
-lerna bootstrap            The "bootstrap" command was removed by default in v7, and is no longer maintained.
-lerna link                 The "link" command was removed by default in v7, and is no longer maintained.
+`lerna add-caching`          `Interactive prompt to generate task runner configuration`
+`lerna changed`             `List local packages that have changed since the last tagged release`                            `[aliases: updated]`
+`lerna clean`                `Remove the node_modules directory from all packages`
+`lerna create <name> [loc]`  `Create a new lerna-managed package`
+`lerna diff [pkgName]`       `Diff all packages or a single package since the last release`
+`lerna exec [cmd] [args..]`  `Execute an arbitrary command in each package`
+`lerna import <dir>`         `Import a package into the monorepo with commit history`
+`lerna info`                 `Prints debugging information about the local environment`
+`lerna init`                 `Create a new Lerna repo or upgrade an existing repo to the current version of Lerna`
+`lerna list`                 `List local packages                                          [aliases: ls, la, ll]`
+`lerna publish [bump]`       `Publish packages in the current project`
+`lerna repair`               `Runs automated migrations to repair the state of a lerna repo`
+`lerna run <script>`         `Run an npm script in each package that contains that script`
+`lerna watch`                `Runs a command whenever packages or their dependents change.`
+`lerna version [bump]`       `Bump version of packages changed since the last release`
+`lerna add <pkg> [globs..]`  `The "add" command was removed by default in v7, and is no longer maintained.`
+`lerna bootstrap`            `The "bootstrap" command was removed by default in v7, and is no longer maintained.`
+`lerna link`                 `The "link" command was removed by default in v7, and is no longer maintained.`
 
 Global Options:
 --loglevel       What level of logs to report.                                                                    [字符串] [默认值: info]
