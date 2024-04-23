@@ -1,18 +1,20 @@
 {
   "name": "learn-lerna",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
     "lerna": "lerna",
-    "nx": "nx"
+    "nx": "nx",
+    "release": "standard-version"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^8.1.2"
+    "lerna": "^8.1.2",
+    "standard-version": "^9.5.0"
   }
 }
