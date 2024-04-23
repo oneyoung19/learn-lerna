@@ -1,11 +1,11 @@
 {
-  "name": "module-b",
-  "version": "0.0.4",
+  "name": "lodash-latest",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "yangxiaoping <2878847069@qq.com>",
   "homepage": "https://github.com/oneyoung19/learn-lerna#readme",
   "license": "MIT",
-  "main": "lib/module-b.js",
+  "main": "lib/lodash-latest.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,18 +21,9 @@
     "url": "git+https://github.com/oneyoung19/learn-lerna.git"
   },
   "scripts": {
-    "test": "node ./__tests__/module-b.test.js"
+    "test": "node ./__tests__/lodash-latest.test.js"
   },
   "bugs": {
     "url": "https://github.com/oneyoung19/learn-lerna/issues"
-  },
-  "gitHead": "db9ca21b84170441089249fa3f7c3a65ab572c18",
-  "dependencies": {
-    "jquery": "^3.7.1",
-    "lodash": "^4.17.21",
-    "lodash-latest": "workspace:^1.0.0",
-    "module-c": "^0.0.1",
-    "module-d": "workspace:^0.0.3",
-    "vue": "^3.4.24"
   }
 }
