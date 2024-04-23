@@ -50,5 +50,3 @@ yarn lerna create <package>
 
 `test` 单元测试 用例测试
 
-`pnpm` 结合 `lerna` 使用的[好处](https://lerna.js.org/docs/recipes/using-pnpm-with-lerna)
-

@@ -2,7 +2,7 @@
 
 - [`workspaces`](https://zhuanlan.zhihu.com/p/381794854)
 
-利用 `yarn workspace add` 安装包时，会默认有 `hoist` 效果。如果想要针对某些包关闭此特性，可以参考使用[nohoist](https://classic.yarnpkg.com/blog/2018/02/15/nohoist/)。
+利用 `yarn workspace <package> add` 安装包时，会默认有 `hoist` 效果。如果想要针对某些包关闭此特性，可以参考使用[nohoist](https://classic.yarnpkg.com/blog/2018/02/15/nohoist/)。
 
 在 `package.json` 中定义了 `workspaces` 后，利用 `yarn` 初始化项目，会自动安装 `workspaces` 相关依赖。
 

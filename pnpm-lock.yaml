@@ -8,6 +8,12 @@ importers:
     devDependencies:
       lerna: 8.1.2
 
+  packages/lodash:
+    specifiers: {}
+
+  packages/lodash-latest:
+    specifiers: {}
+
   packages/module-b:
     specifiers:
       jquery: ^3.7.1
