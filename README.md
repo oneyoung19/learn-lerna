@@ -36,17 +36,18 @@ yarn lerna create <package>
 
 # TODO
 
-`changelog`
+(可参考)[https://github.com/qinzhiwei1993/lerna-changelog]
 
-`GH_TOKEN`
+- [x] `lerna-changelog` 是针对项目 `PR` 生成 `changelog`。它需要设置 `GITHUB_AUTH`。
 
-`commit`
+- [ ] 约束 `commit` 规范
 
-自定义 `commit` `tag` 名
+- [ ] 自定义 `commit` `tag` 名
 
-`lerna.json` 与 `nx.json` [Configuration](https://lerna.js.org/docs/api-reference/configuration)
+- [ ] `lerna.json` 与 `nx.json` [Configuration](https://lerna.js.org/docs/api-reference/configuration)
 
-`CI`
+- [ ] `CI`
 
-`test` 单元测试 用例测试
+- [ ] `test` 单元测试 用例测试
 
+- [ ] 要确认下 `monorepo` 模式项目，如何针对单个 `package` 生成 `changelog` 并发布，这部分需要捋一下 `vue` 项目的相关源码。
