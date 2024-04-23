@@ -22,21 +22,23 @@
 }
 ```
 
-7. `lerna run <script>` 一次性执行所有 `package` 中的相关命令。相关脚本不会输出到控制台，如果想要查看每个脚本的具体执行打印，可以添加 `--stream` 参数。
+7. `lerna run <script>` 一次性执行所有 `package` 中的相关命令。**相关脚本不会输出到控制台**，如果想要查看每个脚本的具体执行打印，可以添加 `--stream` 参数。
 
-8. `lerna run <script> --scope=<package>` 执行指定 `package` 中的脚本。
+8. `lerna run <script> --stream` 一次性执行所有 `package` 中的相关命令。并将具体执行内容打印到控制台。
 
-8. `lerna exec <cmd>` 一次性在所有 `package` 下执行 `cmd` 命令。譬如 `yarn lerna exec touch test.txt` 会在所有 `package` 下创建 `test.txt` 文件。
+9.  `lerna run <script> --scope=<package>` 执行指定 `package` 中的脚本。
 
-9. `lerna exec <cmd> --scope=<package>` 在指定 `package` 下执行 `cmd` 命令。
+10. `lerna exec <cmd>` 一次性在所有 `package` 下执行 `cmd` 命令。譬如 `yarn lerna exec touch test.txt` 会在所有 `package` 下创建 `test.txt` 文件。
 
-10. `lerna boostrap` 安装依赖和软链接。（**在 `lerna@7` 版本被移除，官方目前推荐使用 `package.json` 中的 `workspaces` 字段。**）
+11. `lerna exec <cmd> --scope=<package>` 在指定 `package` 下执行 `cmd` 命令。
 
-11. `lerna bootstrap --hoist` 安装依赖和软链接，并 `hoist` 提升至顶级 `node_modules`。
+12. `lerna boostrap` 安装依赖和软链接。（**在 `lerna@7` 版本被移除，官方目前推荐使用 `package.json` 中的 `workspaces` 字段。**）
 
-12. `lerna clean` 移除 `packages` 下的所有 `node_modules` 目录。
+13. `lerna bootstrap --hoist` 安装依赖和软链接，并 `hoist` 提升至顶级 `node_modules`。
 
-13. `lerna import` 相当于将一个外部 `package` 导入到本项目的 `workspaces` 中，并且保留该 `package` 的 `commit` 记录。
+14. `lerna clean` 移除 `packages` 下的所有 `node_modules` 目录。
+
+15. `lerna import` 相当于将一个外部 `package` 导入到本项目的 `workspaces` 中，并且保留该 `package` 的 `commit` 记录。
 
 
 执行 `yarn lerna -h` 查看所有命令：
