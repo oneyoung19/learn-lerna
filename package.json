@@ -8,7 +8,8 @@
   "scripts": {
     "lerna": "lerna",
     "nx": "nx",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "husky install"
   },
   "workspaces": [
     "packages/*"
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^8.0.0",
     "lerna": "^8.1.2",
     "standard-version": "^9.5.0"
   }
